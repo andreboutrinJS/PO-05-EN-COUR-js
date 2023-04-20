@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="slideshow-container">
+        <!-- IMAGES -->
+        <div class="mySlides">
+            <img src="images/slideshow/slide1.jpg" alt="" style="width:100%;">
+            <div class="text">
+                <span><h1> Impressions tous formats</h1><br>
+                en boutique et en ligne</p></span>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="images/slideshow/slide2.jpg" alt="" style="width:100%">
+            <div class="text">
+                <span>Tirages haute définition grand format<br>
+                   pour vos bureaux et events</span>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="images/slideshow/slide3.jpg" alt="" style="width:100%">
+            <div class="text">
+                <span>Grand choix de couleurs<br>    
+                   de CMJN aux pantones</span>
+
+
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="images/slideshow/slide4.png" alt="" style="width:100%">
+            <div class="text">
+
+                <span>Autocollants <br>
+                avec découpe laser sur mesure</span>
+
+
+            </div>
+        </div>
+        <!-- ARROW-->
+        <div class="arrows">
+            <img class="prev" onclick="plusSlides(-1)" src="arrow_left.png" alt="">
+            <img class="next" onclick="plusSlides(1)" src="arrow_right.png" alt="">
+        </div>
+    </div>
+    <!--DOTS-->
+    <div class="block-point">
+        <span class="dot" onclick="currentSlide(1)">1</span>
+        <span class="dot" onclick="currentSlide(2)">2</span>
+        <span class="dot" onclick="currentSlide(3)">3</span>
+        <span class="dot" onclick="currentSlide(4)">4</span>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
